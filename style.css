@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.main-content {
+    background-image: url('bc.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.forecast-item {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.date {
+    font-size: 16px;
+    color: #333;
+}
+
+.temperature {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-top: 5px;
+    color: #333;
+}
+
+.weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
